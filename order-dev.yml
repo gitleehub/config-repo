@@ -1,5 +1,5 @@
 env:
-  dev-release-9527
+  dev-release-95
 eureka:
   client:
     service-url:
