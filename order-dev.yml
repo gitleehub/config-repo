@@ -1,5 +1,5 @@
 env:
-  dev-release-245
+  dev-release-24sdf
 eureka:
   client:
     service-url:
