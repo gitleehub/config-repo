@@ -1,5 +1,5 @@
 env:
-  div
+  div-release
 eureka:
   client:
     service-url:
