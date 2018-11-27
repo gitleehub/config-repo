@@ -1,16 +1,9 @@
-env:
-  div-release
-eureka:
-  client:
-    service-url:
-      defaultZone: http://127.0.0.1:8761/eureka/
+env: dev
 spring:
-  application:
-    name: order
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
     username: root
     password: 123456
     url: jdbc:mysql://39.105.153.8:3306/springcloud_sell?characterEncoding=utf-8&useSSL=false
   jpa:
-    show-sql: true
+      show-sql: true
