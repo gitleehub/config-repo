@@ -5,6 +5,11 @@ eureka:
     service-url:
       defaultZone: http://127.0.0.1:8761/eureka/
 spring:
+  rabbitmq:
+    username: guest
+    password: guest
+    host: 39.105.153.8
+    port: 5672
   application:
     name: order
   datasource:
