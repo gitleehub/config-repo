@@ -1,5 +1,8 @@
 env: dev
 spring:
+  redis:
+    host: 39.105.153.8
+    port: 6379
   datasource: 
     driver-class-name: com.mysql.jdbc.Driver
     url: jdbc:mysql://39.105.153.8:3306/springcloud_sell?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&useSSL=false&zeroDateTimeBehavior=convertToNull
