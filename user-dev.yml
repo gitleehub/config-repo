@@ -1,0 +1,27 @@
+env: dev
+spring:
+  redis:
+    host: 39.105.153.8
+    port: 6379
+  datasource: 
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://39.105.153.8:3306/springcloud_sell?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&useSSL=false&zeroDateTimeBehavior=convertToNull
+    username: root
+    password: 123456
+    hikari:
+  # Hikari will use the above plus the following to setup connection pooling
+      minimum-idle: 5
+      maximum-pool-size: 15
+      auto-commit: true
+      idle-timeout: 30000
+      pool-name: DatebookHikariCP
+      max-lifetime: 1800000
+      connection-timeout: 30000
+      connection-test-query: SELECT 1
+  jpa:
+      show-sql: true
+#  rabbitmq:
+#    host: 39.105.153.8
+#    port: 5672
+#   username: guest
+#    password: guest
