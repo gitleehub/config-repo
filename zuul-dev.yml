@@ -1,7 +1,8 @@
 zuul:
+  sensitive-headers:
   routes:
     #配置自定义url映射
-    myProduct:
+#    myProduct:
 #    path: /myProducts/**
 #    serviceId: products
     #取消敏感请求头的过滤，后台服务可以获取cookie
