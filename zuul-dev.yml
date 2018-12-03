@@ -7,9 +7,9 @@ zuul:
     #取消敏感请求头的过滤，后台服务可以获取cookie
     sensitiveHeaders:
 #products: /myProducts/**
-  ignored-patterns:
-    - /products/**
-    - /myProducts/**
+#  ignored-patterns:
+#    - /products/**
+#    - /myProducts/**
 management:
   endpoints:
     web:
