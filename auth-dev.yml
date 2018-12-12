@@ -1,0 +1,9 @@
+spring:  
+  datasource:
+    url: jdbc:mysql://39.105.153.8:3306/dtp_auth?useSSL=false&useUnicode=true&characterEncoding=utf-8
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.jdbc.Driver
+  redis:
+    port: 6379
+    host: 39.105.153.8
