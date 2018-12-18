@@ -5,7 +5,7 @@ spring:
     port: 6379
   datasource: 
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://39.105.153.8:3306/springcloud_sell?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&useSSL=false&zeroDateTimeBehavior=convertToNull
+    url: jdbc:mysql://39.105.153.8:3306/springcloud_sell?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&useSSL=false&zeroDateTimeBehavior=round
     username: root
     password: 123456
     hikari:
